@@ -7,22 +7,18 @@
 a {
   text-decoration: none;
 }
-ul,
-li,
-a,
-.logo,
-.menu {
+ul,li,a,.logo,.menu {
   display: inline-block;
 }
-ol,
-ul {
+ol,ul {
   list-style: none;
 }
 .container {
   width: 1140px;
-margin: 0 auto; 
+  margin: 0 auto; 
  position: relative;
 }
+ /* topbar section starting */
 #topbar {
   background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
   padding: 7px 0;
@@ -48,11 +44,15 @@ margin: 0 auto;
   top: 0;
   display: inline-block;
 }
+ /* topbar section ending */
+
+ /* navbar section starting */
 #nav {
   background-color: #faf0f0;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
   position: sticky;
   top: 0px;
+  z-index: 99;
 }
 #nav .logo {
   vertical-align: middle;
@@ -120,3 +120,4 @@ margin: 0 auto;
   padding-right: 9px;
   vertical-align: middle;
 }
+ /* navbar section ending */ 
