@@ -18,35 +18,46 @@ ol,
 ul {
   list-style: none;
 }
-
+.container {
+  width: 1140px;
+margin: 0 auto; 
+ position: relative;
+}
 #topbar {
   background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
   padding: 7px 0;
+  font-family: 'Inter', sans-serif;
 }
 #topbar a {
   color: #fff;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 27px;
   text-align: left;
   margin-right: 83px;
   margin-left: -27px;
 }
 #topbar a img {
-  margin-right: 27px;
+  margin-right: 10px;
   vertical-align: middle;
+}
+#topbar .bn-en{
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
 }
 #nav {
   background-color: #faf0f0;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0px;
 }
 #nav .logo {
   vertical-align: middle;
   margin-right: 60px;
   cursor: pointer;
-}
-.container {
-  margin: 0 auto;
-  width: 1140px;
 }
 #nav ul li a {
   color: #1f1e1e;
